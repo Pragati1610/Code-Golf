@@ -266,9 +266,10 @@ p{
 }
 
 .contact{
-	position: absolute;
-	top: 60%;
-	transform: translateY(-50%);
+	/*position: absolute;*/
+	/*top: 60%;*/
+	/*transform: translateY(-50%);*/
+	margin-top: 2.5%;
 }
 
 .links{
@@ -276,6 +277,8 @@ p{
 	left: 50%;
 	transform: translateX(-50%);
 	margin-top: 10rem;*/
+	align-items: center;
+	margin-left: 8rem;
 }
 
 .fab{
@@ -330,11 +333,6 @@ iframe{
 }
 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (max-width: 1200px) {
-
-}
-
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
 	html{
@@ -355,13 +353,14 @@ iframe{
 	padding: 0;
 	margin: 0;
 	}
+	
 	.footer-content{
 	margin-left: 1rem;
 	margin-right: 1rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	height: 100px;
+	height: 250px;
 	align-items: center;
 	}
 	iframe{
@@ -401,11 +400,11 @@ iframe{
 		align-items: center;
 	}
 	.contact{
-		position: absolute;
-		top: 60%;
+		/*position: absolute;
+		top: 60%;*/
 		align-items: center;
 		text-align: center;
-		transform: translateY(-50%);
+		/*transform: translateY(-50%);*/
 		order: 2;
 	}
 
@@ -416,13 +415,15 @@ iframe{
 		height: 10rem;
 		/*margin-right: 4rem;*/
 		align-items: center;
-		margin-top: -250px;
+		margin-top: 7px;
 		order: 1;
 	}
 
 	.links{
 		order: 3;
 		margin-bottom: 7%;
+		align-content: center;
+		margin-right: 6%;
 	}
 
 	iframe{
