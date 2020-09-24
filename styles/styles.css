@@ -102,12 +102,28 @@ section .container{
 .head-codegolf{
 	font-size: 21rem;
 	font-family: 'hacked';
-	padding-bottom: 0px;	
+	padding-bottom: 10px;	
+	padding-top: 10px;
 	margin-bottom: -4rem; 
 	margin-top: -7rem; 
 	width: 25rem;
 	margin-left: 50%;
 	transform: translateX(-50%); 	
+}
+
+.cg-span{
+	display: inline-block;
+	-moz-transform: scale(1, -1);
+	-webkit-transform: scale(1, -1);
+	-o-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	transform: scale(1, -1);
+
+	-moz-transform: scale(-1, 1);
+	-webkit-transform: scale(-1, 1);
+	-o-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	transform: scale(-1, 1);
 }
 
 	/* container-classes */
@@ -175,7 +191,7 @@ p{
 }
 
 #CS{
-	font-size: 7rem;
+	font-size: 8rem;
 	font-family: 'hacked';
 	position: absolute;
 	top: 70%;
