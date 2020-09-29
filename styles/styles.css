@@ -453,4 +453,10 @@ iframe{
 		
 }
 
+.register{
+	position: absolute;
+	top: 16rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
 
